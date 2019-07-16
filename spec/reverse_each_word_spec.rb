@@ -28,6 +28,7 @@ describe '#reverse_each_word' do
     word.split("").collect(&:to_s)
     word.join
   end
+  return word
   return x
   end
 end
