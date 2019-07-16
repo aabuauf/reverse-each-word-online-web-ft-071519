@@ -16,7 +16,7 @@ describe '#reverse_each_word' do
     reverse_each_word("Verifying that collect is being called.")
   end
   def reverse_each_word(string)
-  string.split("").map(&:to_s)
-  return string
+  x = string.split("").map(&:to_s)
+  return x
   end
 end
