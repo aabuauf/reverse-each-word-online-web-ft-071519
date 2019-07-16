@@ -25,9 +25,10 @@ describe '#reverse_each_word' do
   def reverse_each_word(string)
   x = string.split(" ").collect(&:to_s)
   x.each do|word|
-    
-end
-  return x
+    newword = word.split("").collect(&:to_s)
+    newString.push(newword)
+  end
+  return newString
   
   end
 end
