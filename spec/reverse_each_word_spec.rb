@@ -17,5 +17,6 @@ describe '#reverse_each_word' do
   end
   def reverse_each_word(string)
   string.split("")
+  return string
   end
 end
