@@ -17,7 +17,7 @@ describe '#reverse_each_word' do
   end
   def reverse_each_word(string)
   x = string.split("").collect(&:to_s)
-  x.reverse
+  
   
   return x
   end
