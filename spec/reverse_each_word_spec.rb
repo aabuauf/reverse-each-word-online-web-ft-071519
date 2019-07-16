@@ -29,7 +29,7 @@ describe '#reverse_each_word' do
     newWord.reverse
     newWord.join
   end
-  return x
+  return newWord
   
   end
 end
