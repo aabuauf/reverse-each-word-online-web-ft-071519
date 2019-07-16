@@ -29,7 +29,11 @@ describe '#reverse_each_word' do
     newWord.reverse
     newWord.join
   end
-  return newWord
+  return   x.collect do|word|
+    newWord = word.split("").collect(&:to_s)
+    newWord.reverse
+    newWord.join
+  end
   
   end
 end
