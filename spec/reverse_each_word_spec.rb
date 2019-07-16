@@ -22,18 +22,5 @@ describe '#reverse_each_word' do
   return x
   end
   
-  def reverse_each_word(string)
-  x = string.split(" ").collect(&:to_s)
-  x.collect do|word|
-    newWord = word.split("").collect(&:to_s)
-    newWord.reverse
-    newWord.join
-  end
-  return   x.collect do|word|
-    newWord = word.split("").collect(&:to_s)
-    newWord.reverse
-    newWord.join
-  end
-  
-  end
+
 end
