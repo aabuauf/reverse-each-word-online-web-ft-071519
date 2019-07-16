@@ -21,4 +21,10 @@ describe '#reverse_each_word' do
   x.join
   return x
   end
+  
+  def reverse_each_word(string)
+  x = string.split(" ").collect(&:to_s)
+ 
+  return x
+  end
 end
